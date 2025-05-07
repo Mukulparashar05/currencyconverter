@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body
+    style="background:linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); color:white; ">
+    <header>
+        <p class="text-4xl text-center font-bold my-5">CURRENCY CONVERTER
+        </p>
+    </header>
+    <div class="main    container flex items-center justify-center   mx-10 my-3">
+        <div
+            class="border-4 h-[100%] w-[60%] flex items-center justify-center rounded-lg text-2xl font-bold text-black">
+            <form action="">
+                <div class="amount font-bold text-center">
+                    <p class="text-2xl">Enter Amount</p>
+                    <input type="text" class="text-black text-center" value="" />
+                </div>
+                
+                <div class="dropdown flex justify-around items-center mt-5">
+                    <div class="FROM">
+                        <p>FROM</p>
+
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                            <select name="from" class="text-red-500">
+
+                            </select>
+                        </div>
+                    
+                    </div>
+                    
+                    <i class="fa-solid fa-right-left"></i>
+                    
+                    <div class="to">
+                        <P>TO</P>
+                       
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                            <select name="to" class="text-red-500">
+
+                            </select>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="msg text-center m-2">
+                    <p>1USD=88INR
+                    </p>
+
+                    <BUTTON
+                        class="button border w-auto h-auto rounded bg-purple-500 hover:bg-green-400 transition transform hover:scale-150 cursor-pointer  ">GET
+                        EXCHANGE RATE</BUTTON>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
